@@ -1,0 +1,28 @@
+@model MVC_store.Models.ViewModels.Cart.CartVM
+
+
+@if (Model.Quantity != 0)
+{
+   <div class="ajaxcart">
+
+    @*Your cart: @Model.Quantity items - @Model.Price $
+
+        <br />
+
+        @Html.ActionLink("Checkout", "Index")*@
+
+       <a href="~/Cart/Index" style="text-decoration: none;">Your cart: @Model.Quantity items - @Model.Price RUB</a>
+   </div>
+}
+else
+{
+    <div class="ajaxcart">
+
+        <a href="~/Cart/Index" style="text-decoration: none;">Your cart: @Model.Quantity item - @Model.Price RUB</a>              
+        @*@Html.ActionLink("Checkout", "Index")*@
+
+    </div>
+}
+
+
+

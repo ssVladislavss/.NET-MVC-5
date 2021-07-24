@@ -1,0 +1,58 @@
+@model IEnumerable<MVC_store.Models.ViewModels.Account.OrdersForUserVM>
+
+@{
+    ViewBag.Title = "Orders";
+}
+
+<h2>Orders</h2>
+
+@if (!Model.Any())
+{
+    <h2 class="text-center">У Вас нет заказов.</h2>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderNumber)
+            </th>
+            <th>
+                Order details
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+             <tr>
+                   <td>
+                       @Html.DisplayFor(modelItem => item.OrderNumber)
+                   </td>
+                   
+                   <td>
+                       @foreach (var item2 in item.ProductsAndQty)
+                        {
+                           @item2.Key @:x @item2.Value <br />
+                        }
+                   </td>
+                   
+                   <td>
+                       @Html.DisplayFor(modelItem => item.CreatedAt)
+                   </td>
+                   
+                   <td>
+                       @Html.DisplayFor(modelItem => item.Total) RUB
+                   </td>
+             </tr>
+        }
+
+    </table>
+}
+

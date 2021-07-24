@@ -1,0 +1,13 @@
+@model IEnumerable<MVC_store.Models.ViewModels.Pages.PageVM>
+
+@foreach (var item in Model)
+{
+
+    @*<li class="nav-item"><a class="nav-link" href="/@item.Slug">@item.Title</a></li>*@
+    <li class="nav-item">
+        @*<a class="nav-link" href="/@item.Slug">@item.Title</a>*@
+        @Html.ActionLink(item.Title, "Index", "Pages", new { page = item.Slug, id = item.ID }, new { @class = "nav-link" })
+    </li>
+}
+
+

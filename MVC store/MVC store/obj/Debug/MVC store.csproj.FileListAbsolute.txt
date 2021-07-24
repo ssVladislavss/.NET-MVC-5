@@ -1,0 +1,75 @@
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\MVC store.dll.config
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\MVC store.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\MVC store.pdb
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\csc.exe
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\csc.exe.config
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\csc.rsp
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\csi.exe
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\csi.exe.config
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\csi.rsp
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\vbc.exe
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\vbc.exe.config
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\vbc.rsp
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\Antlr3.Runtime.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\Newtonsoft.Json.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Helpers.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Mvc.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Optimization.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Razor.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.WebPages.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\WebGrease.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Helpers.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Mvc.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Optimization.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.Razor.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.WebPages.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\Newtonsoft.Json.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\Antlr3.Runtime.pdb
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\ru\System.Web.Razor.resources.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\obj\Debug\MVC store.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\obj\Debug\MVC store.csproj.CopyComplete
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\obj\Debug\MVC store.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\obj\Debug\MVC store.pdb
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Buffers.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Memory.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\EntityFramework.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\EntityFramework.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\PagedList.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\PagedList.Mvc.dll
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\PagedList.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\bin\PagedList.Mvc.xml
+C:\Users\User\source\repos\Все проекты\Обучение\MVC store .NET Framework\MVC store\MVC store\obj\Debug\MVC store.csproj.AssemblyReference.cache

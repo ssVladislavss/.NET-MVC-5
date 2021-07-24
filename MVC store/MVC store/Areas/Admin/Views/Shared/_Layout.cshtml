@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Admin Area</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            @Html.ActionLink("Dashboard"/*то что будет выводиться*/, "Index"/*метод*/, "Dashboard"/*контроллер*/, "", new { @class = "navbar-brand"/*класс bootstrap*/ })
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        @Html.ActionLink("Pages"/*то что будет выводиться*/, "Index"/*метод*/, "Pages"/*контроллер*/, "", new { @class = "nav-link"/*класс bootstrap*/ })
+                    </li>
+                    @*<li class="nav-item">
+                        @Html.ActionLink("Sidebar"/*то что будет выводиться*/, "EditSidebar"/*метод*/, "Pages"/*контроллер*/, "", new { @class = "nav-link"/*класс bootstrap*/ })
+                    </li>*@
+                    <li class="nav-item">
+                        @Html.ActionLink("Categories"/*то что будет выводиться*/, "Categories"/*метод*/, "Shop"/*контроллер*/, "", new { @class = "nav-link"/*класс bootstrap*/ })
+                    </li>
+                    <li class="nav-item">
+                        @Html.ActionLink("Products"/*то что будет выводиться*/, "Products"/*метод*/, "Shop"/*контроллер*/, "", new { @class = "nav-link"/*класс bootstrap*/ })
+                    </li>
+                </ul>
+
+                <!--New right menu-->
+                @*<ul class="navbar-nav m-auto" class="nav-item">
+                    <li>
+                        <a href="/" class="navbar-brand" target="_blank">Shopping Cart</a>
+                    </li>
+                </ul>*@
+                <span class="navbar-text">
+                    <a href="/" class="navbar-brand" @*target="_blank"*@>Shop store</a>
+                    </span>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content" style="margin-top: 30px;">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - MVC Store</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    <!--Подключаю бандл к шаблону админ зоны-->
+    @Scripts.Render("~/bundles/jqueryui")
+
+    @Scripts.Render("~/bundles/ckeditor")
+
+    @Scripts.Render("~/bundles/bootstrap.min.css")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

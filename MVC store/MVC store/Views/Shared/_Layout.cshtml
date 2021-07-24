@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MVC 5 Store</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Shop store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    @Html.Action("PagesMenuPartial", "Pages")
+
+
+                    <!--Проверяю авторизован ли пользователь, если да то вывожу блок-->
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li class="nav-item">@Html.ActionLink("Выйти", "Logout", "Account", null, new { @class = "nav-link", style = "text-decoration: none" })</li>
+                        @*<li> <a href="/account/logout">Logout</a> </li>*@ <!--Второй способ вывода-->
+                    }
+                    else
+                    {
+                        if(ViewBag.Title == "Login")
+                        {
+                           <li class="nav-item">@Html.ActionLink("Войти", "Login", "Account", null, new { @class = "active nav-link", style = "text-decoration: none" })</li>
+                        }
+                        else
+                        {
+                           <li class="nav-item">@Html.ActionLink("Войти", "Login", "Account", null, new { @class = "nav-link", style = "text-decoration: none" })</li>
+                           
+                        }
+                    }
+                    
+                    @if(Request.IsAuthenticated && User.IsInRole("User"))
+                     {
+                        if(ViewBag.Title == "User Profile")
+                        {
+                             <li class="nav-item">@Html.Action("UserNavPartial", "Account", new { area = "" })</li>
+                        }
+                        else
+                        {
+                             <li class="nav-item">@Html.Action("UserNavPartial", "Account", new { area = "" })</li>
+                        }
+                        
+                     }
+                </ul>
+
+
+
+                    @if(Request.IsAuthenticated && User.IsInRole("Admin"))
+                     {
+                         <span class="navbar-text">
+                             @Html.ActionLink("Панель администратора", "Index", "Dashboard", new { area = "Admin"}, new { @class = "", style = "text-decoration: none"})
+                         </span>
+                    }
+                    else
+                    {
+                        if(ViewBag.Title != "Cart Details" && Request.IsAuthenticated)
+                        {
+                            <span class="navbar-text">
+                                @Html.Action("CartPartial", "Cart")
+                            </span>
+                        }
+                         
+                     }
+                
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container body-content" style="margin-top: 30px;">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 list-group">
+                @Html.Action("CategoryMenuPartial", "Shop")
+            </div>
+            <!--******************************************************-->
+            @if (ViewBag.Sidebar == "Yes")
+            {
+                <div class="col">
+                    @RenderBody()
+                </div>
+
+                <div class="col-sm-12 col-md-3">
+                    @Html.Action("SidebarPartial", "Pages")
+                </div>
+            }
+            else
+            {
+                <div class="col">
+                    @RenderBody()
+                </div>
+            }
+        </div>
+    </div>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - MVC STORE</p>
+        </footer>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/scripts")
+        @Scripts.Render("~/bundles/bootstrap.min.css")
+        @RenderSection("scripts", required: false)
+</body>
+</html>
